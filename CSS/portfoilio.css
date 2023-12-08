@@ -9,15 +9,22 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: 20px 230px;
+    align-items: center;
 }
 
 nav ul{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 nav li{
     list-style: none;
-    
+    margin:20px 50px;
+    font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
 
@@ -38,7 +45,77 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
     }
+.button{
+    border-radius: 5px;
+background: #FD6E0A;
+width: 150px;
+height: 64px;
+flex-shrink: 0;
+color: #FD6E0A;
+color: var(--White-Color, #FFF);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border:none;
+}
+#button{
+    color: #FD6E0A;
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+width: 150px;
+height: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-color: #FD6E0A;
+border-radius: 5px;
+}
 
+/* banner style */
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.hardy{
+    width: 584px;
+height: 676px;
+flex-shrink: 0;
+}
+.banner-title{
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size:65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
     
+}
+
+.banner-sub-title{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner-text{
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-bottom: 30px;
+    /* 166.667% */
+}
+
+
 
 
