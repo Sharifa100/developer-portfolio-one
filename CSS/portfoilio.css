@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header and navigation style */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 230px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    list-style: none;
+    
+}
+
+
+.nav-title{
+    color: var(--Dark-01, #181818);
+font-family: Open Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.title-color{
+    color: #FD6E0A;
+    font-family: Open Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+    }
+
+
